@@ -1,0 +1,40 @@
+{
+  "simlife-bot": {
+    "promptValues": {
+      "packageName": "io.github.scrapery.scheduler",
+      "nativeLanguage": "en"
+    },
+    "simlifeVersion": "5.0.2",
+    "applicationType": "microservice",
+    "baseName": "ScraperScheduler",
+    "packageName": "io.github.scrapery.scheduler",
+    "packageFolder": "io/github/scrapery/scheduler",
+    "serverPort": "8081",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "418f7184e3f0c5b7f755340cb7886ecae6ca7b2c",
+    "enableTranslation": true,
+    "testFrameworks": [
+      "gatling",
+      "cucumber"
+    ],
+    "simPrefix": "sim",
+    "clientPackageManager": "yarn",
+    "nativeLanguage": "en",
+    "languages": [
+      "en",
+      "vi"
+    ],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
